@@ -700,8 +700,4 @@ with bot:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     except BaseException:
-        LOGS.info(
-            "Help Mode Inline Bot Mu Tidak aktif. Tidak di aktifkan juga tidak apa-apa. "
-            "Untuk Mengaktifkannya Buat bot di @BotFather Lalu Tambahkan var BOT_TOKEN dan BOT_USERNAME. "
-            "Pergi Ke @BotFather lalu settings bot » Pilih mode inline » Turn On. "
-        )
+        pass
